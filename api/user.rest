@@ -1,0 +1,24 @@
+
+### to fetch non deleted posts
+GET http://localhost:3000/posts
+
+### to add new post
+POST  http://localhost:3000/addpost
+Content-Type: application/json
+
+{
+    "title":"i add it"
+}
+
+###to edit post
+PUT http://localhost:3000/editpost/5eb1696d1eb42f30fc1693ef
+Content-Type: application/json
+
+{
+    "name":"newly updated"
+}
+
+### to delete new post
+DELETE  http://localhost:3000/deletepost/5eac33232a655305191617c6
+
+

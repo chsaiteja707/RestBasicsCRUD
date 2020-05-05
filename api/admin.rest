@@ -1,0 +1,7 @@
+
+### to get all posts
+GET http://localhost:3000/admin/posts
+
+###to delete permenantly
+DELETE  http://localhost:3000/admin/deletepost/5eabdcc9a0989303aa81df65
+
